@@ -18,7 +18,7 @@ Run all cells in the notebook, and the result will provide an excel file ready f
 
 #### 1.2 Detecting Duplicate Product Titles
 
-After cleaning the data from both categories, we used jaccard similarity for sets of tokens to figure out how similar 2 products were. Then we iterated over similar pairs to find duplicates. To get a good accuracy, we set a similarity threshold for considering products as duplicates high at 0.80 so we got good accuracy. Then we stored similar products agaisnt their respective mastercodes. 
+After cleaning the data we get a cleaned excel file labelled "<categoryName_cleaned>" and this file is used and loaded to detect duplicate product titles from both categories. We use jaccard similarity for sets of tokens to figure out how similar 2 products were. Then we iterated over similar pairs to find duplicates. To get a good accuracy, we set a similarity threshold for considering products as duplicates high at 0.80 so we got good accuracy. Then we stored similar products agaisnt their respective mastercodes. The last line of code ouputs an excel file labelled "<categoryName_duplicateTitles>" that contains the final output. 
 
 
 ## Results:
