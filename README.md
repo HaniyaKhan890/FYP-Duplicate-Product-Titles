@@ -23,7 +23,7 @@ After cleaning the data we get a cleaned excel file labelled "<categoryName_clea
 
 ## Results:
 
-The final output will be an excel file with 2 columns. The first column will include the mastercodes of the similar products in this format: {mastercode1, mastercode2} and the next column will conntain the duplicate product in the format {dairy milk chocolate 200g}. This format will be the case when there are products that are listed exactly as dairy milk chocolate 200g. However, if they arent exact duplicates then they will be listed as {dairy milk 200g, dairy milk chocolate 200g}. 
+The final output will be an excel file with 2 columns. The first column will include the mastercodes of the similar products in this format: {mastercode1, mastercode2} and the next column will conntain the duplicate product in the format {dairy milk 200g, dairy milk chocolate 200g}. 
 
 
 
